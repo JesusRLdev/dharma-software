@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://jesusrldev.github.io/dharma-software/sitemap.xml

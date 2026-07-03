@@ -1,0 +1,228 @@
+/* ==========================================
+   PALETA DE COLORES
+========================================== */
+
+:root {
+    --negro: #000000;
+    --azul-navbar: #00203f;
+    --azul-oscuro: #002a4c;
+    --azul: #0063a4;
+    --azul-claro: #00a5ff;
+    --blanco: #ffffff;
+}
+
+/* ==========================================
+   GENERAL
+========================================== */
+
+body {
+    background-color: var(--negro);
+    color: var(--blanco);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.color1 { color: var(--negro); }
+.color2 { color: var(--azul-oscuro); }
+.color3 { color: var(--azul); }
+.color4 { color: var(--azul-claro); }
+.color5 { color: var(--blanco); }
+
+/* ==========================================
+   NAVBAR
+========================================== */
+
+header .navbar {
+    background-color: var(--azul-navbar) !important;
+    box-shadow: 0 4px 15px rgba(0,0,0,.25);
+}
+
+header .navbar .navbar-brand,
+header .navbar .nav-link,
+header .navbar .navbar-toggler-icon {
+    color: var(--blanco) !important;
+}
+
+header .navbar .nav-link {
+    transition: color .3s ease;
+}
+
+header .navbar .nav-link:hover,
+header .navbar .nav-link:focus {
+    color: var(--azul-claro) !important;
+}
+
+header .navbar .navbar-toggler {
+    border-color: var(--blanco);
+}
+
+header .navbar .navbar-toggler:focus {
+    box-shadow: none;
+}
+
+/* ==========================================
+   LOGOS
+========================================== */
+
+.logo-img {
+    width: 42px;
+    height: auto;
+}
+
+.logo-hero {
+    width: auto;
+    height: auto;
+}
+
+/* ==========================================
+   HERO
+========================================== */
+
+#home {
+
+    position: relative;
+    overflow: hidden;
+
+    background: linear-gradient(
+        135deg,
+        #3189ee 0%,
+        #00A5FF 30%,
+        #92c9fc 65%,
+        #e2f0f8 100%
+    );
+}
+
+/* Iluminación */
+
+#home::before {
+
+    content: "";
+
+    position: absolute;
+
+    width: 700px;
+    height: 700px;
+
+    top: -250px;
+    right: -250px;
+
+    border-radius: 50%;
+
+    background: rgba(255,255,255,.15);
+
+    filter: blur(140px);
+
+    pointer-events: none;
+}
+
+#home .container{
+    position: relative;
+    z-index: 2;
+}
+
+#home h1,
+#home h2,
+#home h3,
+#home h4,
+#home h5,
+#home p,
+#home .lead{
+    color: var(--blanco);
+}
+
+/* ==========================================
+   BOTONES
+========================================== */
+
+.btn-primary {
+
+    background-color: var(--azul);
+
+    border: none;
+
+    color: var(--blanco);
+
+    border-radius: 8px;
+
+    padding: 12px 28px;
+
+    transition: all .3s ease;
+}
+
+.btn-primary:hover {
+
+    background-color: var(--azul-claro);
+
+    color: var(--blanco);
+
+    transform: translateY(-2px);
+
+    box-shadow: 0 8px 20px rgba(0,0,0,.25);
+}
+
+/* ==========================================
+   SECCIONES
+========================================== */
+
+section{
+    padding:80px 0;
+    color: var(--azul-oscuro);
+    background-color: var(--blanco);
+}
+
+#services {
+    text-align: center;
+}
+
+#services .btn {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+/* ==========================================
+   casos de éxito
+========================================== */
+
+.card-footer{
+    background-color: var(--azul-oscuro);
+    color: var(--blanco);
+    text-align: center;
+    padding:30px 0;
+}
+
+/* ==========================================
+   FOOTER
+========================================== */
+
+footer{
+    background-color: var(--azul-navbar);
+    color: var(--blanco);
+    text-align: center;
+    padding:30px 0;
+}
+
+/* ==========================================
+   SCROLL
+========================================== */
+
+html{
+    scroll-behavior:smooth;
+}
+
+/* ==========================================
+   RESPONSIVE
+========================================== */
+
+@media(max-width:768px){
+
+    .logo-hero{
+        max-width:170px;
+    }
+
+    section{
+        padding:60px 0;
+    }
+
+}

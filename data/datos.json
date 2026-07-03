@@ -1,0 +1,47 @@
+{"servicios": [
+    {
+      "nombre": "Desarrollo Web",
+      "descripcion": "Creamos sitios web atractivos y funcionales que se adaptan a tus necesidades.",
+      "icono": "fas fa-laptop-code"
+    },
+    {
+      "nombre": "Aplicaciones Móviles",
+      "descripcion": "Desarrollamos aplicaciones móviles para iOS y Android, optimizadas para el rendimiento.",
+      "icono": "fas fa-mobile-alt"
+    },
+    {
+      "nombre": "Consultoría Tecnológica",
+      "descripcion": "Ofrecemos asesoramiento experto para optimizar tus procesos tecnológicos.",
+      "icono": "fas fa-lightbulb"
+    },
+    {
+      "nombre": "Soporte y Mantenimiento",
+      "descripcion": "Ofrecemos soporte técnico y mantenimiento para garantizar el correcto funcionamiento de tus sistemas.",
+      "icono": "fas fa-tools"
+    }
+  ],
+  "casosexito": [
+    {
+      "nombre": "BMC Amozoc",
+      "Problema": "El cliente estaba perdiento clientes debido a la falta de presencia en línea.",
+      "Solucion": "Desarrollamos un sitio web moderno y optimizado para SEO, mejorando la visibilidad en línea y atrayendo a más clientes, mostrando sus principales servicios y productos de manera clara y atractiva. tambien se implemento un panel administrativo para que el cliente pueda gestionar su contenido de manera sencilla y eficiente sin depender de terceros.",
+      "imagen": "assets/img/proyectos/bmc-amozoc.png",
+      "url": "https://bmc-amozoc.com",
+      "periodo": "2025-08-15 al 2025-09-11"
+    },
+    {
+      "nombre": "Escuela primaria",
+      "Problema": "El plantel no contaba con una sala de computación, esto generaba que los estudiantes no pudieran acceder a recursos digitales y mejorar su aprendizaje.",
+      "Solucion": "Implementamos una sala de computación equipada con computadoras y software educativo, brindando a los estudiantes acceso a recursos digitales y mejorando su aprendizaje. Además, se capacito al personal docente para que puedan integrar la tecnología en sus métodos de enseñanza.",
+      "imagen": "assets/img/proyectos/escuela-primaria.png",
+      "url": "",
+      "periodo": "2024-01-4 al 2024-01-06"
+    }
+  ],
+  "contacto": {
+    "direccion": "Priv 6 Oriente No. 2 Col San Isidro Vista Hermosa, Santiago Miahuatlán, Puebla, México",
+    "telefono": "+52 238 210 6985",
+    "whatsapp": "+52 238 209 2991",
+    "correo": "Jesus.ramirez.leon.1@gmail.com"
+  }
+}

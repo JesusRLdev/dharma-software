@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dharma Software</title>
+    <meta name="description"
+        content="Dharma Software es una microempresa de desarrollo de software que ofrece soluciones innovadoras y personalizadas para satisfacer las necesidades tecnológicas de nuestros clientes.">
+    <meta name="keywords"
+        content="Dharma Software, desarrollo de software, soluciones tecnológicas, innovación, personalización,soporte técnico, consultoría tecnológica, aplicaciones web, aplicaciones móviles, software a medida">
+    <meta name="author" content="Dharma Software">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#00203f">
+    <meta property="og:title" content="Dharma Software">
+    <meta property="og:description"
+        content="Dharma Software es una microempresa de desarrollo de software que ofrece soluciones innovadoras y personalizadas para satisfacer las necesidades tecnológicas de nuestros clientes.">
+    <meta property="og:image" content="assets/img/home.svg">
+    <meta property="og:url" content="https://jesusrldev.github.io/dharma-software">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Dharma Software">
+    <meta name="twitter:description"
+        content="Dharma Software es una microempresa de desarrollo de software que ofrece soluciones innovadoras y personalizadas para satisfacer las necesidades tecnológicas de nuestros clientes.">
+    <meta name="twitter:image" content="assets/img/home.svg">
+    <link rel="apple-touch-icon" href="assets/img/favicon.png">
+    <link rel="manifest" href="manifest.json">
+    <link rel="canonical" href="https://jesusrldev.github.io/dharma-software">
+    <link rel="icon" href="assets/img/favicon.png" type="image/png">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="js/index.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <a class="navbar-brand" href="#">Dharma Software</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Servicios</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">Nosotros</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contacto</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#blog">Casos de Éxito</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="home" class="d-flex align-items-center justify-content-center vh-100">
+            <div class="container text-center">
+                <img src="assets/img/home.png" alt="Dharma Software" class="img-fluid mb-4 logo-hero">
+                <p class="lead">Soluciones innovadoras y personalizadas para tus necesidades tecnológicas.</p>
+                <a href="#services" class="btn btn-primary btn-lg">Nuestros Servicios</a>
+            </div>
+
+        </section>
+        <section id="services" class="d-flex flex-column align-items-center justify-content-center">
+            <div class="container py-5">
+                <h2 class="text-center mb-4">Nuestros Servicios</h2>
+                <div class="row" id="servicios-container">
+                    <!-- Los servicios se cargan aquí dinámicamente -->
+                </div>
+                <button class="btn btn-primary mt-4" onclick="location.href='#contact'">Contacto</button>
+            </div>
+        </section>
+        <section id="about">
+            <div class="container py-5">
+                <h2 class="text-center mb-4">Sobre Nosotros</h2>
+                <p class="lead text-center">Dharma Software es una empresa dedicada a proporcionar soluciones
+                    tecnológicas innovadoras y personalizadas para satisfacer las necesidades de nuestros clientes.</p>
+                <p class="lead text-center">Nuestro equipo de profesionales está comprometido con brindar un servicio de
+                    excelencia y ayudar a nuestros clientes a alcanzar sus objetivos.</p>
+            </div>
+        </section>
+        <section id="blog">
+            <div class="container py-5">
+                <h2 class="text-center mb-4">Casos de Éxito</h2>
+                <div class="row" id="casosexito-container">
+                    <!-- Los casos de éxito se cargan aquí dinámicamente -->
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="container py-5">
+                <h2 class="text-center mb-4">Contacto</h2>
+                <p class="lead text-center">¿Tienes una idea que quieres implementar para tu negocio? Contáctanos y
+                    haremos posible tu visión.</p>
+
+                <div class="text-center mb-4" id="contacto-container">
+                    <!-- Los datos de contacto se cargan aquí dinámicamente -->
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer text-center py-4">
+        <div class="container">
+            <p>&copy; 2026 Dharma Software. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
