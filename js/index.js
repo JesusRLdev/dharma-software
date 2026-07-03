@@ -44,7 +44,7 @@ async function obtenerDatos() {
                     </div>
                     <div class="card-footer">
                         <p>Proyecto realizado en un periodo de ${caso.periodo}</p>
-                        ${caso.url? `<button class="btn btn-primary" onclick="window.location.href='${caso.url}'">Ver Proyecto</button>` : ''}
+                        ${caso.url !=""? `<button class="btn btn-primary" onclick="window.location.href='${caso.url}'">Ver Proyecto</button>` : ''}
                     </div>
                 </div>
             `;
